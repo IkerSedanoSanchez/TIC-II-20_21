@@ -1,7 +1,7 @@
 import random
 
 def adivino_2():
-    maxn=1000000
+    maxn=10
     numero=random.randint(1,maxn)
     intento=input("Intentalo: ")
     while intento!=numero:
